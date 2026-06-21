@@ -73,9 +73,10 @@ def def_primos():
     pausa()
     os.system('cls')
 
-# def es_primo(n):
-#     """Alias para el método por defecto (División por Ensayo)."""
-#     return es_primo_division_ensayo(n)
+def es_primo(n):
+    """Alias para el método por defecto (División por Ensayo)."""
+    return es_primo_division_ensayo(n)
+
 
 #DIVISIONES SUCESIVAS
 def es_primo_division_ensayo(n):
@@ -159,17 +160,6 @@ def explicar_no_primo_TF(n):
                 
     return True
     
-    # divisor = 2
-    # while divisor * divisor <= n:
-    #     if n % divisor == 0:
-    #         otro_factor = n // divisor
-    #         print(f"{divisor} es divisor de {n} cociente: {otro_factor}")
-    #         return f"El número {n} NO es primo.\n¿Sabes por qué? Porque puede dividirse por {divisor} ({divisor} x {otro_factor} = {n}).\nUn número primo solo puede dividirse por 1 y por sí mismo."
-    #     else:
-    #         print(f"Divisor de prueba: {divisor} - Cociente: {n//divisor} - Resto: {n%divisor} --- {divisor} No es divisor")
-    #     divisor += 1
-    #     print(f"\nNUEVO divisor de prueba: {divisor}")
-    # return f"El número {n} es primo."
 #*****************************************************************************************************************************
 
 #TEST MILLER-RABIN

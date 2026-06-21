@@ -2,7 +2,7 @@ import os
 import primos
 from utils import imprimir_encabezado, pausa, validacion_entrada_int, mcd, inverso_modular, VERDE, AMARILLO, ROJO, RESET
 
-# ... (previous sesion_rsa code)
+
 
 def cifrar_archivo():
     imprimir_encabezado("CIFRAR ARCHIVO (texto.txt)")

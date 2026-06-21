@@ -2,11 +2,12 @@ import sys,os
 import primos
 import rsa
 import simulador
-import practica
+# import practica
 import ataque
 from utils import imprimir_encabezado, pausa, ROJO, VERDE, AMARILLO, RESET
 
 def mostrar_menu():
+    os.system("cls")
     imprimir_encabezado("CRIPTO-PRIMOS\nAPRENDE CRIPTOGRAFÍA")
     print("1. Introducción a Número Primos")
     print("2. Verificador de Números Primos")
@@ -92,7 +93,7 @@ def verificador_opcion():
         if encontrado:
             pausa()
 
-def buscar_primos_rango():
+def buscar_primos_rango(): 
     imprimir_encabezado("BUSCAR PRIMOS EN RANGO")
     try:
         inicio = int(input("Introduce el inicio del rango: "))
@@ -126,7 +127,7 @@ def buscar_primos_rango():
     m = metodos[sel]
     print(f"\nBuscando primos entre {inicio} y {fin} usando {m['nombre']}...")
     
-    primos_encontrados = []
+    primos_encontrados = [] #Crea lista de números primos en el rango dado
     for num in range(inicio, fin + 1):
         if m['funcion'](num):
             primos_encontrados.append(num)
@@ -144,6 +145,7 @@ def buscar_primos_rango():
         print(f"{ROJO}Error al guardar el archivo: {e}{RESET}")
     
     pausa()
+    # return {primos_encontrados}
 
 def main():
     while True:
@@ -174,8 +176,6 @@ def main():
             ataque.iniciar_ataque()
         elif opcion == '12':
             mostrar_ayuda()
-        #elif opcion == '12':
-         #   rsa.exportar_sesion()
         elif opcion == '0':
             print("\n¡Gracias por aprender con Cripto-Primos! Hasta pronto.")
             sys.exit()
