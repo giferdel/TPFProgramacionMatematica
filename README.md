@@ -22,7 +22,6 @@ Verifica si un número es primo utilizando diferentes algoritmos:
 ### 3. Modos Educativos
 * **Simulación Paso a Paso:** Un recorrido guiado por todo el proceso de RSA con ejemplos claros.
 * **Modo Ataque (Factorización):** Intenta "romper" RSA mediante fuerza bruta y descubre por qué la seguridad depende del tamaño de los números.
-* **Modo Práctica:** Desafía tus conocimientos con preguntas interactivas.
 
 ---
 
