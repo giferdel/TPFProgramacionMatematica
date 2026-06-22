@@ -44,3 +44,7 @@ source env/bin/activate
 
 # Activar en Windows
 env\Scripts\activate
+
+#Ejecución del Proyecto
+
+python main.py
