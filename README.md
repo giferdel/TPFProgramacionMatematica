@@ -1,10 +1,10 @@
-# 🔐 Cripto-Primos: Aprende Criptografía RSA
+# Cripto-Primos: Aprende Criptografía RSA
 
-**Cripto-Primos** es una herramienta educativa interactiva diseñada para enseñar los fundamentos de la teoría de números y la criptografía RSA. A través de simulaciones, juegos y herramientas de análisis, podrás entender cómo los números primos se convierten en los "átomos" que protegen la información en el mundo digital.
+**Cripto-Primos** es una herramienta educativa interactiva diseñada para enseñar los fundamentos de la teoría de números y la criptografía RSA. A través de simulaciones, juegos y herramientas de análisis, podrás entender cómo los números primos se convierten en el fundamento que protege la información en el mundo digital.
 
 ---
 
-## 🚀 Características Principales
+## Características Principales
 
 ### 1. Analizador de Números Primos
 Verifica si un número es primo utilizando diferentes algoritmos:
@@ -26,7 +26,7 @@ Verifica si un número es primo utilizando diferentes algoritmos:
 
 ---
 
-## 🛠️ Instalación y Uso
+## Instalación y Uso
 
 ### Requisitos
 * Python 3.10 o superior.
