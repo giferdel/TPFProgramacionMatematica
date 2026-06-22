@@ -46,7 +46,7 @@ env\Scripts\activate
 ```
 
 
-3. Ejecución del Proyecto:
+3. Ejecuta el Proyecto:
 
 ```bash
 
@@ -54,10 +54,8 @@ env\Scripts\activate
 
 python main.py
 ```
-4. Ejecución de pruebas unitarias:
+4. Ejecuta las pruebas unitarias:
 
-    El proyecto incluye pruebas unitarias para asegurar la integridad de los algoritmos matemáticos. 
-    Podés ejecutarlas con:
 ```bash
 
  python -m unittest test_funciones.py
